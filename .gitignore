@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/verifex/node_modules
+/verifex/.pnp
+/verifex/.pnp.js
+
+# testing
+/verifex/coverage
+
+# production
+/verifex//build
+
+# misc
+/verifex/.DS_Store
+/verifex/.env.local
+/verifex/.env.development.local
+/verifex/.env.test.local
+/verifex/.env.production.local
+
+/verifex/npm-debug.log*
+/verifex/yarn-debug.log*
+/verifex/yarn-error.log*
+
+/face_backend/__pycache__
+
+/backend/node_modules/
+/backend/radata
